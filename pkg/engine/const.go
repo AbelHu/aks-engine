@@ -74,6 +74,7 @@ const (
 	kubernetesWindowsAzureCniFunctionsPS1         = "k8s/windowsazurecnifunc.ps1"
 	kubernetesWindowsHostsConfigAgentFunctionsPS1 = "k8s/windowshostsconfigagentfunc.ps1"
 	kubernetesWindowsOpenSSHFunctionPS1           = "k8s/windowsinstallopensshfunc.ps1"
+	kubernetesWindowsCalicoFunctionPS1            = "k8s/windowscalicofunc.ps1"
 	kubernetesWindowsHypervtemplatetoml           = "k8s/containerdtemplate.toml"
 )
 

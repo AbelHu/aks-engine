@@ -187,6 +187,7 @@ type WindowsProfile struct {
 	WindowsPauseImageURL          string            `json:"windowsPauseImageURL"`
 	AlwaysPullWindowsPauseImage   *bool             `json:"alwaysPullWindowsPauseImage,omitempty"`
 	WindowsRuntimes               *WindowsRuntimes  `json:"windowsRuntimes,omitempty"`
+	WindowsCalicoPackageURL       string            `json:"windowsCalicoPackageURL,omitempty"`
 }
 
 // WindowsRuntimes configures containerd runtimes that are available on the windows nodes

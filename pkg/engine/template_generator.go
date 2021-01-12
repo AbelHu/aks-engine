@@ -405,6 +405,7 @@ func getContainerServiceFuncMap(cs *api.ContainerService) template.FuncMap {
 				kubernetesWindowsAzureCniFunctionsPS1,
 				kubernetesWindowsHostsConfigAgentFunctionsPS1,
 				kubernetesWindowsOpenSSHFunctionPS1,
+				kubernetesWindowsCalicoFunctionPS1,
 				kubernetesWindowsHypervtemplatetoml,
 			}
 
