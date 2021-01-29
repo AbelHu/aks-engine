@@ -17714,6 +17714,9 @@ try
         $global:globalTimer.Stop()
         $global:AppInsightsClient.TrackMetric("TotalDuration", $global:globalTimer.Elapsed.TotalSeconds)
         $global:AppInsightsClient.Flush()
+        
+        Write-Log "Add test registry for HNS service"
+        reg add HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\hns\State /v HNSControlFlag /t REG_DWORD /d 2
 
         Write-Log "Setup Complete, reboot computer"
         Restart-Computer
